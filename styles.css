@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;  
+}
+
+.header {
+  margin-bottom: 30px;
+  text-align: center;
+  
+  .full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    
+  }
+  
+  .first-name {
+    font-weight: 700;
+  }
+  
+  .last-name {
+    font-weight: 300;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact ,
+  .email ,
+  .address ,
+  .linkedinemail {
+    color: #222;
+    font-weight: 300;
+  } 
+  
+  .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+  
+  .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+
+  .nameUni {
+     /* Distribute items evenly with space between */
+    color: #222;
+    width: 100%;
+  }
+   
+  .location {
+    flex-grow: 1; /* Grow to fill available space evenly */
+    text-align: right; /* Align text to the right */
+  }
+
+  .location span {
+    margin-right: 20px; /* Adjust the margin-right value as needed */
+  }
+
+  .work {
+    margin-bottom: 10px; /* Add margin-bottom for spacing */
+  }
+
+  .work hr {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .nameCom1 {
+    margin-bottom: 20px; /* Add margin-bottom for spacing */
+  }
+
+  .nameCom1 ul {
+    padding-left: 20px; /* Indent the list items */
+  }
+  
+}
+
+.container-education {
+  margin-right: 20px;
+  margin: 0px auto 0px; 
+  
+  .list {
+    padding-left: 40px;
+  }
+
+  .location1 {
+    padding-left: 100px;
+  }
+
+  .location2 {
+    padding-left: 250px;
+  }
+
+  .year-field1 {
+    padding-left: 315px;
+  }
+
+  .year-field2 {
+    padding-left: 370px;
+  }
+}
+
+.container-work {
+  margin-right: 20px;
+  margin: 0px auto 0px; 
+  
+  .list-work {
+    padding-left: 40px;
+  }
+
+  .location1 {
+    padding-left: 245px;
+  }
+
+  .location2 {
+    padding-left: 90px;
+  }
+
+  .location3 {
+    padding-left: 379px;
+  }
+
+  .location4 {
+    padding-left: 340px;
+  }
+
+  .year-job1 {
+    padding-left: 315px;
+  }
+
+  .year-job2 {
+    padding-left: 223px;
+  }
+
+  .year-job3 {
+    padding-left: 278px;
+  }
+
+  .year-job4 {
+    padding-left: 203px;
+  }
+}
+
+.container-project {
+  margin-right: 20px;
+  margin: 0px auto 0px; 
+  
+  .list-project {
+    padding-left: 40px;
+  }
+
+  .yearp1 {
+    padding-left: 335px;
+  }
+
+  .yearp2 {
+    padding-left: 65px;
+  }
+
+  .yearp3 {
+    padding-left: 303px;
+  }
+
+  .yearp4 {
+    padding-left: 335px;
+  }
+
+  .yearp5 {
+    padding-left: 65px;
+  }
+
+  .yearp6 {
+    padding-left: 303px;
+  }
+}
+
+.container-awards {
+  margin-right: 20px;
+  margin: 0px auto 0px; 
+  
+  .list-awards {
+    padding-left: 40px;
+  }
+}
+
+.container-cert {
+  margin-right: 20px;
+  margin: 0px auto 0px; 
+  
+  .list-cert {
+    padding-left: 40px;
+  }
+
+  .yearc1 {
+    padding-left: 350px;
+  }
+
+  .yearc2 {
+    padding-left: 412px;
+  }
+
+  .yearc3 {
+    padding-left: 252px;
+  }
+
+  .yearc4 {
+    padding-left: 110px;
+  }
+
+  .yearc5 {
+    padding-left: 310px;
+  }
+
+  .yearc6 {
+    padding-left: 310px;
+  }
+}
+
+.container-skills {
+  margin-right: 20px;
+  margin: 0px auto 0px; 
+  
+  .list-skills {
+    padding-left: 40px;
+  }
+}
+
+.container-ref {
+  margin-right: 20px;
+  margin: 0px auto 0px; 
+}
+
+.list-ref {
+  padding-left: 40px;
+}
+
+.list-ref-left {
+  text-align: left;
+}
+
+.list-ref-right {
+  text-align: right;
+}
+
+
+
+
+
+body {
+  min-height: 100%;  
+  background: #eee;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+
+/* .page-container {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 20px; /* Add space on the right */
+  margin-left: 20px; /* Add space on the left */
+}
+
+.containerPage1 {
+  max-width: 700px;   
+  background: #fff;
+  box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;  
+  padding: 40px;
+  margin-top: 50px;
+  margin-bottom: 400px; 
+  margin-right: 5px; /* Adjust margin-right to create space between pages */
+  flex-basis: calc(50% - 15px); /* Adjust width for responsiveness */
+}
+
+.containerPage2 {
+  max-width: 700px;   
+  background: #fff;
+  box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;  
+  padding: 40px;
+  padding-top: 0px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  margin-left: 5px; /* Adjust margin-left to create space between pages */
+  flex-basis: calc(50% - 15px); /* Adjust width for responsiveness */
+}
+
+
+
+
+
+
+/* Button Styles */
+.download-button-container {
+  left: 40%;
+  right: 40%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}
+
+/* FontAwesome Icon Styling */
+.download-button i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+/* Styles for desktop screens */
+@media only screen and (min-width: 1024px) {
+  /* Add your desktop-specific styles here */
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Add your tablet-specific styles here */
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* Add your mobile-specific styles here */
+}
+
+
