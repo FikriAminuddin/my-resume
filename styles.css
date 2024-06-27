@@ -347,18 +347,54 @@ body {
   font-size: 18px;
 }
 
-/* Styles for desktop screens */
-@media only screen and (min-width: 1024px) {
-  /* Add your desktop-specific styles here */
+/* Responsive Design */
+@media only screen and (max-width: 1023px) {
+  .page-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerPage1, .containerPage2 {
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+
+  .download-button-container {
+    bottom: 10px;
+  }
+
+  .download-button {
+    width: calc(100% - 20px);
+    text-align: center;
+  }
 }
 
-/* Styles for tablets */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Add your tablet-specific styles here */
-}
-
-/* Styles for mobile devices */
 @media only screen and (max-width: 767px) {
-  /* Add your mobile-specific styles here */
+  body {
+    font-size: 12px;
+  }
+
+  .header strong {
+    font-size: 1.2em;
+  }
+
+  .containerPage1, .containerPage2 {
+    padding: 20px;
+  }
+
+  .download-button-container {
+    bottom: 5px;
+  }
+
+  .download-button {
+    padding: 10px;
+    font-size: 12px;
+  }
 }
 
+@media only screen and (min-width: 1024px) {
+  .containerPage1, .containerPage2 {
+    max-width: 700px;
+    flex-basis: calc(50% - 10px);
+  }
+}
