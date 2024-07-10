@@ -18,6 +18,16 @@ body {
   padding-bottom: 50px;
 }
 
+.about {
+  text-align: justify;
+}
+
+.about .desc {
+  display: inline-block;
+  text-align: justify;
+}
+
+
 .page-container {
   display: flex;
   flex-wrap: wrap;
@@ -105,25 +115,22 @@ body {
 
 .container-education .location1 {
   float: right;
-  width: calc(100% - 210px); /* Adjust as needed */
   text-align: right;
 }
 
 .container-education .location2 {
   float: right;
-  width: calc(100% - 210px); /* Adjust as needed */
   text-align: right;
 }
 
 .container-education .year-field1 {
   float: right;
-  width: calc(100% - 180px); /* Adjust as needed */
+
   text-align: right;
 }
 
 .container-education .year-field2 {
   float: right;
-  width: calc(100% - 150px); /* Adjust as needed */
   text-align: right;
 }
 
@@ -147,7 +154,7 @@ body {
 
 .container-work .location2 {
   float: right;
-  width: calc(100% - 210px); /* Adjust as needed */
+
   text-align: right;
 }
 
@@ -171,19 +178,31 @@ body {
 
 .container-work .year-job2 {
   float: right;
-  width: calc(100% - 150px); /* Adjust as needed */
   text-align: right;
 }
 
 .container-work .year-job3 {
   float: right;
-  width: calc(100% - 150px); /* Adjust as needed */
   text-align: right;
 }
 
 .container-work .year-job4 {
   float: right;
-  width: calc(100% - 150px); /* Adjust as needed */
+  text-align: right;
+}
+
+.container-project .yearp1 {
+  float: right;
+  text-align: right;
+}
+
+.container-project .yearp2 {
+  float: right;
+  text-align: right;
+}
+
+.container-project .yearp3 {
+  float: right;
   text-align: right;
 }
 
@@ -207,6 +226,7 @@ body {
 .list-skills,
 .list-ref {
   padding-left: 40px;
+  text-align: justify;
 }
 
 .download-button-container {
