@@ -218,6 +218,13 @@ body {
   
 }
 
+.container-cert .yearc1,
+.container-cert .yearc2,
+.container-cert .yearc3 {
+  float: right;
+  text-align: right;
+}
+
 .list,
 .list-work,
 .list-project,
@@ -228,6 +235,27 @@ body {
   padding-left: 40px;
   text-align: justify;
 }
+
+.awards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-awards1 {
+  list-style-type: disc;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.list-awards li, .list-awards1 li {
+  margin-right: 10px;
+}
+
+.list-awards1 {
+  list-style-type: disc; 
+  padding: 0 20px;
+} 
 
 .download-button-container {
   display: flex;
